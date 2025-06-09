@@ -1,10 +1,11 @@
-{
-    "rewrites": [
-      { "source": "/leadership", "destination": "/leadership.html" },  
-      { "source": "/statement", "destination": "/statement.html" },
-      { "source": "/constitution", "destination": "/constitution.html" },
-      { "source": "/sermons", "destination": "/sermons.html" },
-      { "source": "/about", "destination": "/about.html" }
-    ]
-  }
-  
+
+  {
+  "rewrites": [
+    { "source": "/leadership", "destination": "/leadership.html" },  
+    { "source": "/statement", "destination": "/statement.html" },
+    { "source": "/constitution", "destination": "/constitution.html" },
+    { "source": "/sermons", "destination": "/sermons.html" },
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/coming", "destination": "/coming.html" }
+  ]
+}
