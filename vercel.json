@@ -1,11 +1,10 @@
-
-  {
+{
   "rewrites": [
-    { "source": "/leadership", "destination": "/leadership.html" },  
+    { "source": "/Leadership", "destination": "/Leadership.html" },
+    { "source": "/About", "destination": "/About.html" },
+    { "source": "/sermons", "destination": "/sermons.html" },
     { "source": "/statement", "destination": "/statement.html" },
     { "source": "/constitution", "destination": "/constitution.html" },
-    { "source": "/sermons", "destination": "/sermons.html" },
-    { "source": "/about", "destination": "/about.html" },
     { "source": "/coming", "destination": "/coming.html" }
   ]
 }
