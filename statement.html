@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Statement of Faith – Hopeland Ministry</title>
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background-color: #fff;
+        margin: 0;
+        color: #000;
+      }
+
+      header,
+      nav,
+      .hero,
+      .breadcrumb,
+      .print-button,
+      footer {
+        display: block;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        background: #fff;
+        border-bottom: 1px solid #ccc;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .logo img {
+        height: 50px;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #ccc;
+        padding: 0.5rem 0;
+      }
+
+      nav a {
+        margin: 0 15px;
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .hero {
+        background: url("Background2222.png") center/cover no-repeat;
+        padding: 4rem 1rem;
+        text-align: center;
+        color: white;
+        position: relative;
+      }
+
+      .hero::before {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+
+      .hero h1 {
+        font-size: 2.5rem;
+        margin: 0;
+        position: relative;
+        z-index: 1;
+      }
+
+      .breadcrumb {
+        background-color: #f5f5f5;
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+        color: #777;
+      }
+
+      .breadcrumb a {
+        color: #0077cc;
+        text-decoration: none;
+      }
+
+      .content {
+        max-width: 900px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+
+      .content h2 {
+        color: #2c3e50;
+        font-size: 2rem;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 0.5rem;
+      }
+
+      .content h3 {
+        color: #222;
+        margin-top: 2rem;
+      }
+
+      .content p {
+        line-height: 1.6;
+        margin-bottom: 1rem;
+      }
+
+      .print-button {
+        background-color: #0d6efd;
+        color: white;
+        padding: 0.5rem 1.2rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 1.5rem;
+      }
+
+      .print-button:hover {
+        background-color: #0b5ed7;
+      }
+
+      footer {
+        background-color: #0d1b2a;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+
+      /* PRINT STYLES */
+      @media print {
+        header,
+        nav,
+        .hero,
+        .breadcrumb,
+        .print-button,
+        footer {
+          display: none !important;
+        }
+
+        body {
+          background: none !important;
+          color: #000;
+        }
+
+        .content {
+          margin-top: 0;
+          padding: 0;
+          max-width: 100%;
+        }
+
+        .content h2,
+        .content h3,
+        .content p {
+          color: #000 !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="logo hl.png" alt="Hopeland Logo" />
+        </div>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <h1>Statement of Faith</h1>
+    </div>
+
+    <div class="breadcrumb">
+      <a href="index.html">Hopeland Ministry</a> / Statement of Faith
+    </div>
+
+    <div class="content">
+      <button class="print-button" onclick="window.print()">
+        🖨️ Printer Friendly Version
+      </button>
+
+      <h2>Statement of Faith</h2>
+
+      <h3>1. The Bible</h3>
+      <p>
+        We believe the Bible is the inspired Word of God, perfect and
+        trustworthy. It is our guide for life and truth.
+      </p>
+
+      <h3>2. God</h3>
+      <p>
+        We believe in one eternal God—Father, Son, and Holy Spirit—who created
+        all things and reigns with power and love.
+      </p>
+
+      <h3>3. Jesus Christ</h3>
+      <p>
+        We believe Jesus is the Son of God, born of a virgin, crucified for our
+        sins, risen from the dead, and returning again.
+      </p>
+
+      <h3>4. Salvation</h3>
+      <p>
+        Salvation is by grace through faith in Jesus Christ alone—not by works
+        but as a free gift of God.
+      </p>
+
+      <h3>5. The Holy Spirit</h3>
+      <p>
+        The Holy Spirit lives in every believer, guiding, comforting, and
+        empowering us to live for Jesus.
+      </p>
+
+      <h3>6. The Church</h3>
+      <p>
+        The Church is the body of Christ made up of believers called to worship,
+        serve, and share the Gospel.
+      </p>
+
+      <h3>7. Eternal Hope</h3>
+      <p>
+        We believe in eternal life with God for believers and in Christ’s
+        promised return to reign forever.
+      </p>
+    </div>
+
+    <footer>&copy; 2025 Hopeland Ministry. All rights reserved.</footer>
+  </body>
+</html>

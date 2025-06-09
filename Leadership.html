@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leadership – Hopeland Ministry</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        background-color: #f9f9f9;
+        color: #222;
+      }
+
+      .hero {
+        background: url("bible.png") no-repeat center center/cover;
+        padding: 50px 20px;
+        text-align: center;
+        color: white;
+        position: relative;
+      }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 2;
+      }
+
+      .hero h1 {
+        font-size: 3rem;
+        margin: 0;
+      }
+
+      .hero p {
+        font-size: 1.2rem;
+        color: #000000;
+        margin-top: 10px;
+      }
+
+      .leadership-container {
+        max-width: 1200px;
+        margin: 60px auto;
+        padding: 0 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+      }
+
+      .leader-card {
+        background: #fff;
+        border: 4px solid #e69a00;
+        padding: 20px;
+        text-align: center;
+        width: 300px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+      }
+
+      .leader-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 15px;
+      }
+
+      .leader-name {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #222;
+      }
+
+      .leader-role {
+        color: #e69a00;
+        font-style: italic;
+        margin-bottom: 10px;
+      }
+
+      .leader-bio {
+        font-size: 0.95em;
+        color: #333;
+      }
+
+      @media (max-width: 768px) {
+        .leader-card {
+          width: 100%;
+        }
+
+        .hero h1 {
+          font-size: 2.2rem;
+        }
+      }
+
+      footer {
+        background-color: #222;
+        color: #bbb;
+        padding: 20px;
+        text-align: center;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="logo hl.png" alt="Hopeland Logo" style="height: 40px" />
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>MEET OUR LEADERSHIP</h1>
+        <p>Guided by faith. United in service. Rooted in hope.</p>
+      </div>
+    </section>
+
+    <!-- Leadership Profiles -->
+    <main>
+      <section class="leadership-container">
+        <div class="leader-card">
+          <img src="bishop kp.jpg" alt="Pastor" />
+          <div class="leader-name">Bishop KP Semenya</div>
+          <div class="leader-role">Founder/ChairPerson</div>
+          <div class="leader-bio">
+            Bishop Semenya provides spiritual leadership and strategic direction
+            to Hopeland Ministry. With a heart for the Word and the people, he
+            oversees all ministry work, preaches, counsels, and mentors.
+          </div>
+        </div>
+
+        <div class="leader-card">
+          <img src="mma bishop.jpg" alt="Pastor" />
+          <div class="leader-name">Mrs Bishop G Semenya</div>
+          <div class="leader-role">Secretary & Events Organizer</div>
+          <div class="leader-bio">
+            Oversees church administration and event planning. She ensures every
+            gathering runs smoothly and supports the coordination of ministry
+            programs and meetings.
+          </div>
+        </div>
+
+        <div class="leader-card">
+          <div class="leader-name">Gogo Maria</div>
+          <div class="leader-role">Treasure</div>
+          <div class="leader-bio">
+            Manages the church's finances with integrity and care. Responsible
+            for budgeting, record keeping, and ensuring transparency in all
+            financial matters.
+          </div>
+        </div>
+
+        <div class="leader-card">
+          <div class="leader-name">Tshepiso Tuyros Semenya</div>
+          <div class="leader-role">Junior Pastor /Community Outreach</div>
+          <div class="leader-bio">
+            Leads Hopeland’s outreach programs—serving the needy, visiting
+            families, and extending the church’s hand beyond its walls with
+            compassion and energy.
+          </div>
+        </div>
+
+        <div class="leader-card">
+          <div class="leader-name">Lethabo Semenya</div>
+          <div class="leader-role">Media & Tech Director</div>
+          <div class="leader-bio">
+            Oversees all digital platforms, audio/visual content, and church
+            branding. Ensures the message of hope reaches members online through
+            creative, modern tools.
+          </div>
+        </div>
+      </section>
+    </main>
+    <script></script>
+    <footer>&copy; 2025 Hopeland Ministry. All rights reserved.</footer>
+  </body>
+</html>
